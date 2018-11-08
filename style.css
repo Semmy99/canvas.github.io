@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.canvas_wrap{
+	position: relative;
+	background: #040636;
+	height: 100vh;
+	/* overflow: hidden; */
+}
+
+#canvas,
+#canvas1,
+#canvas2{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#canvas{
+	background: transparent;
+	filter: blur(1px);
+	z-index: 5;
+}
+
+#canvas1{
+	background: transparent;
+	opacity: 0.7;
+	filter: blur(3px);
+	z-index: 2;
+}
+
+#canvas2{
+	background: transparent;
+	filter: blur(10px);
+	z-index: 1;
+}
+
+
